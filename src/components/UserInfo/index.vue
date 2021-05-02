@@ -68,4 +68,17 @@ export default {
     color: var(--grey);
   }
 }
+
+.actions {
+  color: var(--grey);
+
+  span {
+    cursor: pointer;
+    transform: 0.2s;
+
+    &:hover {
+      color: var(--white);
+    }
+  }
+}
 </style>
