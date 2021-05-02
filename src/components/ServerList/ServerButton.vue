@@ -35,19 +35,16 @@ export default {
   cursor: pointer;
   position: relative;
   border-radius: 50%;
-
   img {
     width: 24px;
     height: 24px;
     color: #fff;
   }
-
   &.active,
   &:hover {
     border-radius: 16px;
     background-color: var(--discord);
   }
-
   transition: all ease-out 0.2s;
   .mentions {
     background-color: var(--notification);
@@ -65,17 +62,14 @@ export default {
     color: var(--white);
   }
 }
-
 .serverbutton-isHome {
   background-color: var(--rocketseat);
-
   &.active,
   &:hover {
     border-radius: 16px;
     background-color: var(--rocketseat);
   }
 }
-
 .serverbutton-hasNotification {
   &::before {
     width: 9px;

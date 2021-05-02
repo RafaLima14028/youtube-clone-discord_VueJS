@@ -35,13 +35,9 @@ export default {
   align-items: center;
   background-color: var(--tertiary);
   padding: 11px 0;
-  max-height: 100%;
-  scrollbar-width: none;
-}
-
-.container::-webkit-scrollbar {
-  width: 0;
-  height: 0;
+  max-height: 100vh;
+  overflow-y: scroll;
+  scrollbar-width: thin !important;
 }
 
 .separator {
