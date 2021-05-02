@@ -36,7 +36,6 @@ export default {
   background-color: var(--tertiary);
   padding: 11px 0;
   max-height: 100%;
-
   scrollbar-width: none;
 }
 
