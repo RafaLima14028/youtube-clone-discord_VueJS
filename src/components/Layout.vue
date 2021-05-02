@@ -2,17 +2,20 @@
   <div id="grid">
     <ServerList />
     <ServerName />
+    <ChannelList />
   </div>
 </template>
 
 <script>
 import ServerList from "./ServerList/index";
 import ServerName from "./ServerName/index";
+import ChannelList from "./ChannelList/index";
 
 export default {
   components: {
     ServerList,
     ServerName,
+    ChannelList,
   }
 };
 </script>
