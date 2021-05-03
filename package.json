@@ -10,7 +10,6 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "package-name": "^0.1.0",
     "vue": "^2.5.11",
     "vue-material-design-icons": "^4.11.0"
   },
